@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Sample</title>
+    <link rel="icon" href="survey.png" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="feedback.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="feedback-container">
+        <!--Feedback CTA-->
+        <div class="feedback-cta">
+            <div class="feedback-label">
+                <div class="feedback-text">
+                    Feedback<img src="feedback.svg" class="feedback-face" />
+                </div>
+            </div>
+        </div>
+        <!--Feedback Section-->
+        <div class="feedback-section open">
+            <div class="feedback-close">
+                <i class="fa fa-close"></i>
+            </div>
+            <div class="feedback-body">
+                <p class="title">How would you rate your experience?</p>
+                <div class="rating">
+                    <span class="tooltip--bottom" data-tooltip="Sad">😔</span>
+                    <span class="tooltip--bottom" data-tooltip="dislike">🙁</span>
+                    <span class="tooltip--bottom" data-tooltip="natural">😑</span>
+                    <span class="tooltip--bottom" data-tooltip="smile">🙂</span>
+                    <span class="tooltip--bottom" data-tooltip="very-happy">😍</span>
+                </div>
+                <button type="button" id="btnSubmitYourFeeling">Submit</button>
+            </div>
+            <div class="feedback-footer">
+                Do you have any question?
+            </div>
+        </div>
+    </div>
+</body>
+</html>
